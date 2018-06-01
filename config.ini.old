@@ -3,6 +3,8 @@
 ; to ini and are complaining about "::" not being an inline comment delimiter: i wrote this, i chose that as the delim.
 ; if you don't understand what the option description entails, leave the value as "false" unless it's the "total"
 ; options.
+[output]
+interval            = 0.3
 [cpu]
 enabled             = true :: global for all regarding cpu
 [cpu-times]

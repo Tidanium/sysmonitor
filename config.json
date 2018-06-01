@@ -1,0 +1,99 @@
+{
+	"output": {
+		"interval": 0.3
+	},
+	"cpu": {
+		"enabled": true,
+		"times": {
+			"total": true,
+			"percpu": true
+		},
+		"percent": {
+			"total": true,
+			"percpu": true
+		},
+		"frequency": {
+			"total": true,
+			"percpu": true,
+			"min-freq": true,
+			"max-freq": true
+		}
+	},
+	"memory": {
+		"enabled": true,
+		"virtual": {
+			"total": true,
+			"available": true,
+			"used": true,
+			"percentage": true
+		},
+		"swap": {
+			"total": true,
+			"used": true,
+			"free": true,
+			"percentage": true
+		}
+	},
+	"disk": {
+		"enabled": true,
+		"usage": {
+			"count": {
+				"read": true,
+				"write": true
+			},
+			"bytes": {
+				"read": true,
+				"write": true
+			}
+		},
+		"io": {
+			"count": {
+				"read": true,
+				"write": true
+			},
+			"bytes": {
+				"read": true,
+				"write": true
+			}
+		}
+	},
+	"network": {
+		"enabled": true,
+		"bytes": {
+			"sent": true,
+			"recv": true
+		},
+		"packets": {
+			"sent": true,
+			"recv": true,
+			"drop": {
+				"in": true,
+				"out": true
+			}
+		},
+		"err": {
+			"in": true,
+			"out": true
+		}
+	},
+	"sensors": {
+		"enabled": true,
+		"temperature": {
+			"enabled": true,
+			"measurement": "F"
+		},
+		"fans": true,
+		"battery": true
+	},
+	"system": {
+		"enabled": true,
+		"boottime": true,
+		"users": {
+			"name": true,
+			"terminal": true,
+			"host": true,
+			"started": true,
+			"pid": true
+		}
+	}
+}
