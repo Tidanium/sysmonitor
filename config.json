@@ -1,6 +1,7 @@
 {
-	"output": {
-		"interval": 0.3
+	"motor": {
+		"URI": "mongodb://localhost:27017",
+		"db_name": "psutil-stats"
 	},
 	"cpu": {
 		"enabled": true,
