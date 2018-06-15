@@ -1,8 +1,4 @@
 import json
-import psutil
-import main
-from motor.motor_asyncio import AsyncIOMotorClient
-import json
 
 import psutil
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -24,7 +20,7 @@ class Motor(object):
 	client = AsyncIOMotorClient(uri())
 
 class Output:
-	interval = 1.0 #cfg.getfloat("output", "interval")
+	interval = 0.5 #cfg.getfloat("output", "interval")
 
 class CPU(object):
 	def count():
