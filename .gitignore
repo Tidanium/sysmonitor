@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IDE
+.idea
+
+# Misc
+curses.format
+config.ini.old
+
+# Bash script
+run
